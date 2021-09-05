@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function detail() {
   return (
     <>
@@ -51,7 +49,7 @@ export default function detail() {
               <hr />
               <form action="./checkout.html" method="POST">
                 <div className="pt-md-50 pt-30">
-                  <div className>
+                  <div>
                     <label
                       htmlFor="ID"
                       className="form-label text-lg fw-medium color-palette-1 mb-10"
@@ -388,8 +386,6 @@ export default function detail() {
                   >
                     Continue
                   </a>
-                  {/* <button type="submit"
-                          class="btn btn-submit rounded-pill fw-medium text-white border-0 text-lg">Continue</button> */}
                 </div>
               </form>
             </div>
